@@ -1,0 +1,113 @@
+/* ---- Reset básico ---- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* ---- Fuente General ---- */
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+  }
+
+/* ---- Titulo Principal ---- */
+h1 {
+    font-weight: 500;
+    font-size: 3rem;
+    padding: 40px 0;
+  }
+
+/* ---- Imagen de Encabezado ---- */
+header img {
+    width: 100%;
+    display: block;
+  }
+
+/* ---- Sección Descripción ---- */
+.desc-section {
+    background-color: #1e1a13;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    gap: 40px;
+  }
+
+  .desc-section p {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #dcdcdc;
+  }
+  
+  .descripcion-texto {
+    flex: 1;
+  }
+  
+  .descripcion-img {
+    flex: 1;
+  }
+  
+  .descripcion-img img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+/* ---- Sección Iconos ---- */
+.icons-section {
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+    gap: 100px;
+  }
+  
+  .icono {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .icono i {
+    color: #ffffff;
+  }
+  
+  .icon-label {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #ffffff;
+  }
+
+/* ---- Galería ---- */
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 80px;
+    flex-wrap: wrap;
+  }
+  
+  .galeria img {
+    width: 30%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+/* ---- Footer ---- */
+.footer {
+    background-color: #111111;
+    padding: 20px;
+    font-size: 0.85rem;
+    color: #ffffff;
+  }
+  
+  .footer a {
+    color: #ffffff;
+    text-decoration: underline;
+  }
